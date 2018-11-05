@@ -29,7 +29,7 @@ public class PinkFlamingoApplicationTest {
                 .get();
 
         assertEquals(200, response.getStatus());
-        assertEquals("[]", response.readEntity(String.class));
+        assertEquals("[\"Pink Flamingo\",\"Flamingo\",\"Flamingo\",\"Flamingo\",\"4\",\"Flamingo\",\"Fizz\",\"7\",\"Flamingo\",\"Fizz\",\"Buzz\"]", response.readEntity(String.class));
     }
 
 }

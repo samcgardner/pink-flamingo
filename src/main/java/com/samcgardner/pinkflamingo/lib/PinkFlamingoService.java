@@ -1,7 +1,5 @@
 package com.samcgardner.pinkflamingo.lib;
 
-import java.util.stream.IntStream;
-
 public class PinkFlamingoService {
 
     public static String fizzBuzzWithPinkFlamingo(int n) {
