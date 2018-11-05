@@ -2,7 +2,7 @@ package com.samcgardner.pinkflamingo;
 
 import org.junit.Test;
 
-import static com.samcgardner.pinkflamingo.PinkFlamingo.fizzBuzzWithPinkFlamingo;
+import static com.samcgardner.pinkflamingo.lib.PinkFlamingo.fizzBuzzWithPinkFlamingo;
 import static junit.framework.TestCase.assertEquals;
 
 public class PinkFlamingoTest {
