@@ -1,11 +1,11 @@
-package com.samcgardner.pinkflamingo;
+package com.samcgardner.pinkflamingo.lib;
 
 import org.junit.Test;
 
-import static com.samcgardner.pinkflamingo.lib.PinkFlamingo.fizzBuzzWithPinkFlamingo;
+import static com.samcgardner.pinkflamingo.lib.PinkFlamingoService.fizzBuzzWithPinkFlamingo;
 import static junit.framework.TestCase.assertEquals;
 
-public class PinkFlamingoTest {
+public class PinkFlamingoServiceTest {
 
     @Test
     public void isIdentityOnFour() {

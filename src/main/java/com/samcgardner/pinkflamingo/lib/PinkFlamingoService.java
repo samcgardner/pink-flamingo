@@ -2,7 +2,7 @@ package com.samcgardner.pinkflamingo.lib;
 
 import java.util.stream.IntStream;
 
-public class PinkFlamingo {
+public class PinkFlamingoService {
 
     public static String fizzBuzzWithPinkFlamingo(int n) {
         boolean isMultipleOfThree = isMultipleOf(n, 3);
