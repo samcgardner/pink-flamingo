@@ -31,4 +31,16 @@ public class PinkFlamingoTest {
         assertEquals("FizzBuzz", result);
     }
 
+    @Test
+    public void flamingosOnOne() {
+        String result = fizzBuzzWithPinkFlamingo(1);
+        assertEquals("Flamingo", result);
+    }
+
+    @Test
+    public void pinkFlamingosOn6765() {
+        String result = fizzBuzzWithPinkFlamingo(6765);
+        assertEquals("Pink Flamingo", result);
+    }
+
 }
