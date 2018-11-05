@@ -8,8 +8,8 @@ import io.dropwizard.setup.Environment;
 public class PinkFlamingoApplication extends Application<Configuration> {
 
     public static void main(String[] args) throws Exception {
+        new PinkFlamingoApplication().run(args);
     }
-
 
     @Override
     public void run(Configuration configuration, Environment environment) throws Exception {
