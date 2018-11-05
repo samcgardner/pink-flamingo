@@ -8,20 +8,20 @@ import static junit.framework.TestCase.assertEquals;
 public class PinkFlamingoTest {
 
     @Test
-    public void isIdentityOnOne() {
-        String result = fizzBuzzWithPinkFlamingo(1);
-        assertEquals("1", result);
+    public void isIdentityOnFour() {
+        String result = fizzBuzzWithPinkFlamingo(4);
+        assertEquals("4", result);
     }
 
     @Test
-    public void fizzesOnThree() {
-        String result = fizzBuzzWithPinkFlamingo(3);
+    public void fizzesOnSix() {
+        String result = fizzBuzzWithPinkFlamingo(6);
         assertEquals("Fizz", result);
     }
 
     @Test
-    public void buzzesOnFive() {
-        String result = fizzBuzzWithPinkFlamingo(5);
+    public void buzzesOnTen() {
+        String result = fizzBuzzWithPinkFlamingo(10);
         assertEquals("Buzz", result);
     }
 
