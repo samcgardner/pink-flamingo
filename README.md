@@ -20,6 +20,6 @@ docker run -p 8080:8080 pink-flamingo
 We can then test the service by, for example...
 
 ```bash
-curl -X GET 'http://localhost:8080?from=0&to=10'
+curl -X GET 'http://localhost:8080/pink-flamingo?from=0&to=10'
 ["Pink Flamingo","Flamingo","Flamingo","Flamingo","4","Flamingo","Fizz","7","Flamingo","Fizz"]
 ```
