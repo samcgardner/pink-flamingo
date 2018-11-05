@@ -33,7 +33,7 @@ public class PinkFlamingo {
 
     // This isn't correct for very large n, so if we can't find any pink flamingos above a certain bound, that's why
     private static boolean isPerfectSquare(int n) {
-        double sqrt = Math.sqrt(n);
+        int sqrt = (int) Math.sqrt(n);
         return sqrt * sqrt == n;
     }
 
